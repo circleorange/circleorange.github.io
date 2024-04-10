@@ -1,47 +1,77 @@
 <!DOCTYPE html>
 <html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .fa {
+            padding-right: 5px;
+            padding-top: 5px;
+        }
+
+        .fab {
+            padding-right: 5px;
+            padding-top: 5px;
+        }
+
+        .img-medium {
+            max-width: 800px;
+        }
+    </style>
+</head>
+
 <body>
-    <p>
-        Student Name: Piotr Bielski<br>
-        Student Number: 20099888
-    </p>
-    <hr>
-    <p>
-        Profile Photo:<br>
-        <img src="selfie-300x300.jpg">
-    </p>
-    <hr>
-    <p>
-        Commercial Title: TaskManagementWebApp.com<br>
-        Academic Title: Task Management Web App
-    </p>
-    <hr>
-    <p>
-        Project Repository: 
-        <a href="https://github.com/circleorange/web-task-mgmt">
-            https://github.com/circleorange/web-task-mgmt
-        </a><br>
-    
-        Project Page: https://task-managment-rq50.onrender.com/
-    </p>
-    <hr>
-    <p>
-        Key Words:<br>
-        Web Application, Django, HTMX, SQLite
-    </p>
-    
-    <hr>
-    <p>
-        Abstract:<br>
-        Task Manager is a web application that allows users and groups to keep track of tasks. The user can create a customized template containing only the desired set of fields they think are relevant, allowing to then launch tasks only containing the defined fields in the template. Users can also create groups consisting of multiple users and create group tasks that are only visible to the group members. As for the project itself, it presents an alternative design to the traditional approach;
-- It's an web application that does not have client-side state management or frontend framework but instead, fully relies on server-side validation and state management, and uses HTMX to swap out individual HTML elements rather than serving full pages for most user interactions.
-    </p>
-
-    <hr>
-    <p>
-        Project Image:<br>
-        <img src="project-image.png">
-    </p>
-
+    <table>
+        <tr>
+            <td>
+                <img src="selfie-300x300.jpg"><br>
+            </td>
+            <td>
+                <h1>Commercial Title: Task Management App</h1>
+                <br><br><br>
+                <h2>Student Name: Piotr Bielski</h2>
+            </td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td>
+                Project Image:<br>
+                <img src="project-image-v2.png" style="margin-right: 10px;" alt="Project Image" class="img-medium">
+            </td>
+            <td>
+                <h3 style="display:inline; margin-right: 10px;">Key Words:</h3> Web Application, Django, HTMX, SQLite
+                <br><br>
+                <h3>Abstract:<br></h3>
+                Task Manager is a web application that allows users and groups to keep track of tasks. The user can
+                create a customized template containing only the desired set of fields they think are relevant, allowing
+                to then launch tasks only containing the defined fields in the template. Users can also create groups
+                consisting of multiple users and create group tasks that are only visible to the group members. As for
+                the project itself, it presents an alternative design to the traditional approach
+                - It's an web application that does not have client-side state management or frontend framework but
+                instead, fully relies on the server-side and uses HTMX to swap out
+                individual HTML elements rather than serving full pages for nearly all user interactions (one exception when logging in).
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align:center; font-size: 18px;">
+                <i class="fa fa-home" style="color: #74C0FC;"></i>
+                <a href="https://task-managment-rq50.onrender.com/">
+                    https://task-managment-rq50.onrender.com/
+                </a>
+                &nbsp;|&nbsp;
+                <i class="fab fa-github"></i>
+                <a href="https://github.com/circleorange/web-task-mgmt">
+                    https://github.com/circleorange/web-task-mgmt
+                </a>
+                &nbsp;|&nbsp;
+                <i class="fab fa-youtube" style="color: #ff0000;"></i>
+                <a href="">
+                    To Be Added
+                </a>
+            </td>
+        </tr>
+    </table>
 </body>
+
 </html>
